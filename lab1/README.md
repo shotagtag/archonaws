@@ -54,7 +54,7 @@ python3 create_s3bucket.py
 ### S3 バケットにオブジェクトをアップロードする
 - バケットにHappyFace.jpgをアップロードするサンプルプログラムを確認してみましょう。
 ```
-cat upload_file.py
+cat upload_file.py
 ```
 
 - アップロードするバケットをコマンドで書き換えます。
