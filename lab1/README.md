@@ -65,5 +65,5 @@ cat upload_file.py
 
 - プログラムを実行します。実行後、ファイルがアップロードされたかマネジメントコンソールで確認してみましょう。
 ```
-python3 file_upload.py
+python3 upload_file.py
 ```
