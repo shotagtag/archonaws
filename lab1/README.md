@@ -25,7 +25,7 @@ pip3 install boto3
 - サンプルプログラムを clone します。
 ```
 git clone https://github.com/shotagtag/archonaws.git
-cd lab1/
+cd archonaws/lab1/
 ```
 
 ## 🚀 S3 を python SDK で操作する 🚀
