@@ -1,5 +1,6 @@
-- AWSSDKを使用すると、さまざまなプログラム言語からAWSのサービス(API)を呼び出して操作することができます。
-  - 参考 : [AWS での構築のための SDK とプログラミングツールキット](https://aws.amazon.com/jp/developer/tools/)
+# AWSSDKをPythonから使ってみましょう。
+AWSSDKを使用すると、さまざまなプログラム言語からAWSのサービス(API)を呼び出して操作することができます。サンプルプログラムを使ってSDKを体験してみましょう。
+- 参考 : [AWS での構築のための SDK とプログラミングツールキット](https://aws.amazon.com/jp/developer/tools/)
 
 ## 🛠️ 事前準備 🛠️
 
