@@ -1,8 +1,8 @@
 import boto3
 import sys
 
-bucket_name = 'labsdk-bucket-XXXXX' # S3 バケット名
-region = 'ap-northeast-1'  # 作成するAWSリージョン
+bucket_name = 'labsdkbucket-XXXXX' # S3 バケット名
+region = 'REGION_NAME'  # 作成するAWSリージョン
 
 # SDKでS3 リソースオブジェクトを作成
 s3 = boto3.resource('s3')
