@@ -49,8 +49,10 @@ docker images
 docker run -d -it -p 80:80 web2048
 ```
 
-- EC2インスタンスのパブリックIPアドレスをメタデータから確認します。得られたIPアドレスにウェブブラウザから「http://xx.xx.xx.xx」で接続してみてください。
+- EC2インスタンスのパブリックIPアドレスをメタデータから確認します。
 ```
 TOKEN=`curl -s -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 curl -w'\n'  -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-data/public-ipv4
 ```
+
+- 得られたIPアドレスにウェブブラウザから `http://xx.xx.xx.xx` で接続してみてください。アプリケーションの画面が出てくれば成功です🎊
