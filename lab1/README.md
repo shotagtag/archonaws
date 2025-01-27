@@ -31,6 +31,12 @@ cd archonaws/lab1/
 ## 🚀 S3 を python SDK で操作する 🚀
 
 ###  S3 バケットの作成
+- ラボで指定されているリージョンをCLIのデフォルト設定となるようにします。
+```
+aws configure set region リージョン名
+例 : aws configure set region ap-northeast-1
+```
+
 - S3バケットを作成するサンプルプログラムを確認してみましょう。
 ```
 cat create_s3bucket.py
